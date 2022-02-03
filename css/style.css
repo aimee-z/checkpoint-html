@@ -59,6 +59,7 @@ ul li{
 .chosen {
     color: black;
     border: 1px solid darkgray;
+    border-radius: 10px;
 }
 
 #headshot {
