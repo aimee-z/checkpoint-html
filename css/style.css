@@ -1,0 +1,89 @@
+h1 {
+    font-family: future-pt, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+img {
+    width: 200px;
+    padding: 10px;
+    margin-left: 80px;
+    border: 2px black solid;
+    display: block;
+}
+
+img:hover {
+    box-shadow: 5px 5px rgb(80, 64, 175);
+    opacity: 0.7;
+}
+
+a {
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+.skip {
+    font-family: future-pt, helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 13px;
+    padding-left: 80px;
+}
+
+nav {
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+ul li{
+    display: inline;
+    color: black;
+    font-family: future-pt, helvetica, sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 10px 35px;
+    padding: 10px 0px;
+    font-size: 13px;
+}
+
+.chosen {
+    color: black;
+    border: 1px solid darkgray;
+}
+
+#headshot {
+    display: inline-block;
+    width: 400px
+}
+
+p {
+    display: inline-block;
+    font-family: future-pt, helvetica, sans-serif;
+    line-height: 2;
+    margin: 10px;
+    padding: 0px 80px;
+}
+
+hr {
+    width: 90%; 
+    margin: auto;
+    margin-bottom: 30px;
+ }
+
+footer {
+    font-family: future-pt, helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
