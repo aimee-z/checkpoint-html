@@ -13,7 +13,13 @@ img {
     padding: 10px;
     margin-left: 80px;
     border: 2px black solid;
+    border-radius: 5px;
     display: block;
+}
+
+div:nth-child(even) img {
+    border: 2px purple dotted;
+    border-radius: 15px;
 }
 
 img:hover {
